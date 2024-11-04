@@ -3,6 +3,7 @@
   background: url(../../img/flowers-section-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   margin-top: 50px;
 }
 
@@ -45,3 +46,97 @@
     }
   }
 }
+
+
+// start media
+
+
+@media(max-width:906px){
+
+
+.flowers > div {
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  .flowers-item {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    gap: 35px;
+    h3 {
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 125%;
+      text-align: center;
+      color: #fff;
+    }
+    button {
+      border-radius: 20px;
+      width: 138px;
+      height: 40px;
+      background: #4592ff;
+
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 143%;
+      color: #fff;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      text-align: center;
+      padding: 10px;
+    }
+  }
+}
+
+}
+@media(max-width:674px){
+
+
+  .flowers > div {
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    .flowers-item {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+  
+      flex-direction: column;
+  
+      gap: 35px;
+      h3 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 125%;
+        text-align: center;
+        color: #fff;
+      }
+      button {
+        border-radius: 20px;
+        width: 138px;
+        height: 40px;
+        background: #4592ff;
+  
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 143%;
+        color: #fff;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+      }
+    }
+  }
+  
+  }
+  

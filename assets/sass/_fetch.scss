@@ -4,6 +4,7 @@
 
 .fetch > div {
   display: flex;
+  height: auto;
   justify-content: space-between;
 }
 
@@ -145,4 +146,32 @@
     text-align: center;
     color: #262d33;
   }
+}
+
+
+// start media
+
+
+@media(max-width:1300px){
+
+    .fetch-right{
+      display: none;
+    }
+
+    .fetch-left{
+      width: 100%;
+    }
+
+
+}
+@media(max-width:980px){
+
+  .fetch-card{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+
 }
